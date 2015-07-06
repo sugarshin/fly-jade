@@ -1,0 +1,13 @@
+{
+  "env": {
+    "node": true
+  },
+  "ecmaFeatures": {
+    "arrowFunctions": true
+  },
+  "rules": {
+    "semi": [2, "never"],
+    "curly": 0,
+    "strict": 0
+  }
+}
