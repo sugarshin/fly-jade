@@ -4,7 +4,7 @@
   </a>
 </div>
 
-> [fly-jade](https://github.com/sugarshin/fly-jade) plugin for _[Fly][fly]_.
+> [Jade](https://github.com/sugarshin/fly-jade) plugin for _[Fly][fly]_.
 
 [![][fly-badge]][fly]
 [![npm package][npm-ver-link]][releases]
@@ -13,12 +13,12 @@
 [![][mit-badge]][mit]
 
 ## Usage
-To learn about what options are available, check out the [Jade JavaScript API documentation](http://jade-lang.com/api/)
+> Check out the [documentation](http://jade-lang.com/api/#options) to see the available options.
 
 ### Install
 
 ```a
-npm i fly-jade
+npm i -D fly-jade
 ```
 
 ### Example
