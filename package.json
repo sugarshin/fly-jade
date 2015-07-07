@@ -1,7 +1,7 @@
 {
   "name": "fly-jade",
   "version": "0.0.1",
-  "description": "Fly plugin for Jade",
+  "description": "Jade plugin for Fly.",
   "license": "MIT",
   "repository": "https://github.com/sugarshin/fly-jade",
   "main": "index.js",
