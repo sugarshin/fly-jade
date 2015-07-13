@@ -3,5 +3,5 @@ module.exports = function() {
     try {
       return require("jade").render(source, options)
     } catch (e) { throw e }
-  })
+  }, { ext: ".html" })
 }
