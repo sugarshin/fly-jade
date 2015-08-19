@@ -31,7 +31,11 @@
     "url": "http://github.com/sugarshin"
   },
   "dependencies": {
-    "jade": "~1.11.0"
+    "eslint": "^0.21.2",
+    "fly": "^0.1.11",
+    "jade": "^1.11.0",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.2.0"
   },
   "devDependencies": {
     "eslint": "^0.21.2",
