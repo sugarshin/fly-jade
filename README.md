@@ -27,9 +27,23 @@ npm i -D fly-jade
 exports.jade = function* () {
   yield this
     .source('src/*.jade')
-    .jade()
+    .jade({base: 'src'})
     .target('dist');
 };
+```
+
+#### Options
+
+- passing the base directory as `base` is necessary for jade to resolve relative includes/excludes
+- e.g. if we have a file `src/index.jade` which refers to a layout file `src/layouts/default.jade`:
+
+```jade
+extends layouts/default
+
+block content
+  .row
+    .col-sm-12
+      h1 Welcome
 ```
 
 # License
